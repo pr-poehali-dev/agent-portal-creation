@@ -121,6 +121,10 @@ const Index = () => {
               с высокой ставкой вознаграждения
             </span>
           </h1>
+
+          <p className="text-xl sm:text-2xl text-white/80 max-w-3xl mx-auto mb-8 leading-relaxed">
+            Помогайте вашим клиентам делать накопления более эффективно и получайте от этого постоянный доход.
+          </p>
           
           <div className="flex items-center justify-center gap-3 mb-8">
             <div className="text-7xl sm:text-8xl font-black text-white">50%</div>
