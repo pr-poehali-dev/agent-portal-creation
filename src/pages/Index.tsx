@@ -237,6 +237,19 @@ const Index = () => {
               </CardHeader>
             </Card>
           </div>
+
+          <div className="text-center mt-12">
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white font-semibold px-8 py-6 text-lg rounded-full shadow-lg hover:scale-105 transition-transform"
+              asChild
+            >
+              <a href="https://gx2invest.ru/iis" target="_blank" rel="noopener noreferrer">
+                Подробнее об ИИС и доходностях
+                <Icon name="ExternalLink" className="ml-2" size={20} />
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
