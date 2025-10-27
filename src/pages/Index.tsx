@@ -149,6 +149,97 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary/10 via-background to-secondary/10">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-foreground">
+              О компании Gx2Invest
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Надёжный партнёр с многолетним опытом на финансовом рынке
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <Card className="bg-card border-primary/20 text-center p-6">
+              <CardHeader>
+                <div className="w-16 h-16 mx-auto bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mb-4">
+                  <Icon name="Building2" className="text-white" size={32} />
+                </div>
+                <CardTitle className="text-2xl">С 2006 года</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Лицензированная компания с многолетним опытом на рынке ценных бумаг
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card border-primary/20 text-center p-6">
+              <CardHeader>
+                <div className="w-16 h-16 mx-auto bg-gradient-to-br from-secondary to-primary rounded-2xl flex items-center justify-center mb-4">
+                  <Icon name="LineChart" className="text-white" size={32} />
+                </div>
+                <CardTitle className="text-2xl">ИИС счета</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Открываем Индивидуальные Инвестиционные Счета с налоговыми льготами
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card border-primary/20 text-center p-6">
+              <CardHeader>
+                <div className="w-16 h-16 mx-auto bg-gradient-to-br from-accent to-secondary rounded-2xl flex items-center justify-center mb-4">
+                  <Icon name="TrendingUp" className="text-white" size={32} />
+                </div>
+                <CardTitle className="text-2xl">44+ млрд ₽</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Активы под управлением финансовой группы Gx2
+                </CardDescription>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card className="bg-gradient-to-br from-card to-muted/20 border-primary/30">
+              <CardHeader>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon name="Target" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <CardTitle className="text-xl mb-2">Индивидуальный подход</CardTitle>
+                    <CardDescription className="text-base">
+                      Все инвестирование строго в соответствии с инвестиционным профилем клиента. Индивидуальный портфель для каждого клиента.
+                    </CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+            </Card>
+
+            <Card className="bg-gradient-to-br from-card to-muted/20 border-primary/30">
+              <CardHeader>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-accent to-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon name="ShieldCheck" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <CardTitle className="text-xl mb-2">Надёжность и доходность</CardTitle>
+                    <CardDescription className="text-base">
+                      Только надёжные ценные бумаги, торгующиеся на основных мировых биржах, и высокая доходность портфелей.
+                    </CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-muted/20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-slide-up">
