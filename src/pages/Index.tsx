@@ -95,7 +95,17 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary via-secondary to-accent py-20 px-4 sm:px-6 lg:px-8">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <img 
+            src="https://cdn.poehali.dev/files/fd7e0b32-4059-4103-90c2-c1330a4b1cb1.png" 
+            alt="GX2 INVEST" 
+            className="h-10 sm:h-12"
+          />
+        </div>
+      </header>
+
+      <section className="relative overflow-hidden bg-gradient-to-br from-primary via-secondary to-accent pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(255,255,255,0.1),transparent_50%)]" />
         
