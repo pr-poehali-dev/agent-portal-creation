@@ -116,7 +116,7 @@ const Index = () => {
           </div>
           
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Предложение для партнёров<br />
+            Стань партнером Gx2Invest<br />
             <span className="bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
               с высокой ставкой вознаграждения
             </span>
