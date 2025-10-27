@@ -135,7 +135,7 @@ const Index = () => {
           </div>
           
           <p className="text-xl text-white/90 max-w-2xl mx-auto mb-10">
-            Зарабатывайте вместе с нами. Приводите клиентов и получайте половину от каждой сделки без ограничений по доходу.
+            Зарабатывайте вместе с нами без ограничений по доходу.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
